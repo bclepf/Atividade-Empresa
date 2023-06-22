@@ -6,8 +6,7 @@ import java.util.List;
 
 class Gerente extends Funcionario {
     private String departamento;
-    private Empresa empresa;
-
+   
     public Gerente(String nome, double salario, String departamento) {
         super(nome, salario);
         this.departamento = departamento;
